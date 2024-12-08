@@ -18,7 +18,7 @@ field_size = int(input())
 for i in range(field_size):
     field_list = ['.' for j in range(field_size)]
     field.append(field_list)
-print('где разместить точку? (указывайте координаты по полю, то есть 2 5 значит 2 ряд 5 символ)(чтобы остановить, напишите stop):')
+print('где разместить точку? (specify the coordinates of the field, 2 5 means 2 row 5 character)(to stop, write stop):')
 while True:
     point = input('''
 >>>''')
